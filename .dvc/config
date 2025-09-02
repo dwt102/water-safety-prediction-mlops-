@@ -1,0 +1,4 @@
+[core]
+    remote = myremote
+['remote "myremote"']
+    url = /Users/dangthiphuongthao/Documents/MLOps/exp_track_mlflow1/temp/dvc

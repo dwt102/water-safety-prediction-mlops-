@@ -10,7 +10,7 @@ from mlflow.models import infer_signature
 import dagshub
 
 dagshub.init(repo_owner='dwt012', repo_name='water-safety-prediction-mlops-', mlflow=True)
-mlflow.set_experiment("Experiment 2")  # Name of the experiment in MLflow
+mlflow.set_experiment("Experiment 4")  # Name of the experiment in MLflow
 mlflow.set_tracking_uri("https://dagshub.com/dwt012/water-safety-prediction-mlops-.mlflow")  # URL to track the experiment
 
 # Load and preprocess data
